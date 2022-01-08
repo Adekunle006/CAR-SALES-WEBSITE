@@ -1,0 +1,213 @@
+:root {
+    --t :teal;
+    --w:white ;
+    --g :grey ;
+}
+
+* {
+    margin-right: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media  screen and (min-width: 600px) {
+    body {
+        display: none;
+    }
+}
+
+ @media  screen and (max-width: 600px) {
+     
+ 
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--w);
+    color: black;
+    opacity: 0.8;
+}
+
+.select button{ 
+    outline: none;
+    border: 2px solid var(--w);
+    margin: 22px;
+    box-shadow: 5px ,5px  #ddd;
+    background-color:var(--w);
+    cursor: pointer;
+    
+}
+
+.text p {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.sell-btn {
+    
+    background-color: orange;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    color: var(--w);
+    outline: none;
+    border: 1px solid var(--w);
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.search {
+    width: 100%;
+    height: 180px;
+    background-color:var(--t);
+}
+
+.input{
+ 
+ display: flex;
+ align-content: center;
+ justify-content: center;
+ padding: 15%;
+}
+
+input {
+    height: 8vh;
+    width: 100%;
+    border: 5px var(--w);
+    border-radius: 5px;
+    outline: none;
+}
+
+ .search-typ  {
+    display: grid;
+    grid-gap: 12px;
+    grid-template-columns: 1fr 1fr;
+    height: 150px;
+    padding: 25px;
+    
+}
+
+.search-typ > div {
+    border: 10px var(--w) solid;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+#find {
+    padding: 10px;
+    text-transform: capitalize;
+    color: var(--t);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+.feature {
+    background-color:#ddd;
+}
+
+.feature > h3 {
+    color: black;
+    padding: 10px;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+}
+
+.car1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    width: 90%;
+    margin-top: 35px;
+    margin-left: 10px;
+    padding: 15px;
+    background-color: var(--w);
+    border-radius: 5px;
+
+}
+
+.caar1 {
+    position: relative;
+    left: -35px;
+line-height: 25px;
+}
+
+.car2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    width: 90%;
+    margin-top: 15px;
+    margin-left: 10px;
+    padding: 15px;
+    background-color: var(--w);
+    border-radius: 5px;
+
+}
+
+.caar2 {
+    position: relative;
+    left: -55px;
+line-height: 25px;
+}
+
+.car3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    width: 90%;
+    margin-top: 15px;
+    margin-left: 10px;
+    padding: 15px;
+    background-color: var(--w);
+    border-radius: 5px;
+
+}
+
+.caar3 {
+    position: relative;
+    left: -35px;
+line-height: 25px;
+}
+
+.describe {
+    text-transform: capitalize;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,;
+}
+
+.price {
+    color: var(--t);
+    font-weight: bolder;
+}
+
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: var(--t);
+    margin-top: 25px;
+}
+
+footer p {
+    text-align: center;
+    color: var(--w);
+    text-transform: capitalize;
+    padding-top: 10px;
+
+}
+ }
